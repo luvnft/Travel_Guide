@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Virtual Travel Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Your Virtual Travel Guide</h1>
+        <form id="travel-form">
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" name="destination" required><br>
+
+            <label for="dates">Dates:</label>
+            <input type="text" id="dates" name="dates" required><br>
+
+            <label for="preferences">Preferences:</label>
+            <textarea id="preferences" name="preferences"></textarea><br>
+
+            <button type="submit">Generate Itinerary</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <div id="game-container">
+        <h2>Find your perfect holiday buddy!</h2>
+        <div class="animal-card"><img src="%20-7.jpg" alt="Fun"></div>
+        <div class="animal-card"><img src="%20-8.jpg" alt="Supportive"></div>
+        <div class="animal-card"><img src="%20-9.jpg" alt="Daring"></div>
+        <div class="animal-card"><img src="50.jpg" alt="Sleepy"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
